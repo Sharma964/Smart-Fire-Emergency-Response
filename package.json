@@ -1,0 +1,14 @@
+{
+  "name": "smart-fire-emergency-response-system",
+  "version": "1.0.0",
+  "description": "Smart Fire Emergency Response System (PCCOE Pune Prototype)",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["fire-safety", "pccoe", "emergency-response", "ai-dehazing"],
+  "author": "PCCOE AI Department",
+  "license": "MIT"
+}

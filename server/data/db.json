@@ -1,0 +1,579 @@
+{
+  "users": [
+    {
+      "id": "usr-pccoe-001",
+      "name": "Prof. Rajesh Deshmukh",
+      "phone": "+91 98230 45678",
+      "email": "rajesh.deshmukh@pccoe.edu.in",
+      "deviceId": "DEV-PCCOE-CAMPUS-702",
+      "role": "faculty",
+      "authenticated": true,
+      "lastAuthenticated": "2026-09-20T22:30:00.000Z"
+    },
+    {
+      "id": "usr-pccoe-002",
+      "name": "Sonu Kumar (Student)",
+      "phone": "+91 91234 56789",
+      "email": "sonu.kumar@pccoe.edu.in",
+      "deviceId": "DEV-PCCOE-MOBILE-109",
+      "role": "student",
+      "authenticated": true,
+      "lastAuthenticated": "2026-09-20T22:35:00.000Z"
+    }
+  ],
+  "emergencyContacts": [
+    {
+      "id": "cnt-001",
+      "userId": "usr-pccoe-001",
+      "name": "Dr. Ramesh Deshmukh",
+      "phone": "+91 98221 12233",
+      "relationship": "Father",
+      "priority": "High"
+    },
+    {
+      "id": "cnt-002",
+      "userId": "usr-pccoe-001",
+      "name": "Sunita Deshmukh",
+      "phone": "+91 98221 44556",
+      "relationship": "Mother",
+      "priority": "High"
+    },
+    {
+      "id": "cnt-003",
+      "userId": "usr-pccoe-001",
+      "name": "Amit Joshi (Hostel Warden)",
+      "phone": "+91 94220 77889",
+      "relationship": "Friend / Warden",
+      "priority": "Medium"
+    },
+    {
+      "id": "cnt-004",
+      "userId": "usr-pccoe-001",
+      "name": "PCCOE Central Campus Security",
+      "phone": "+91 020 2765 3168",
+      "relationship": "Campus Security",
+      "priority": "Emergency"
+    },
+    {
+      "id": "cnt-005",
+      "userId": "usr-pccoe-001",
+      "name": "Dr. Neha Patil (Campus Medical)",
+      "phone": "+91 98500 33445",
+      "relationship": "Campus Doctor",
+      "priority": "Emergency"
+    }
+  ],
+  "fireServices": [
+    {
+      "id": "fire-001",
+      "name": "PCMC Fire Sub-Station Akurdi",
+      "location": "Near Akurdi Railway Station, Sector 26, Pradhikaran, Akurdi, Pune - 411044",
+      "phone": "020-27652222",
+      "emergencyNumber": "101",
+      "distance": "1.2 km",
+      "latitude": 18.6534,
+      "longitude": 73.7712,
+      "status": "Available",
+      "vehiclesAvailable": 4,
+      "rating": 4.8
+    },
+    {
+      "id": "fire-002",
+      "name": "Pimpri Chinchwad Main Fire Brigade",
+      "location": "Pimpri Municipal Corporation Complex, Mumbai-Pune Hwy, Pimpri, Pune - 411018",
+      "phone": "020-27425555",
+      "emergencyNumber": "101",
+      "distance": "4.8 km",
+      "latitude": 18.6278,
+      "longitude": 73.7997,
+      "status": "Available",
+      "vehiclesAvailable": 10,
+      "rating": 4.9
+    },
+    {
+      "id": "fire-003",
+      "name": "Chinchwad Fire Station (PCMC)",
+      "location": "Near Chaphekar Chowk, Chinchwad Gaon, Pune - 411033",
+      "phone": "020-27351101",
+      "emergencyNumber": "101",
+      "distance": "2.8 km",
+      "latitude": 18.6341,
+      "longitude": 73.7885,
+      "status": "Available",
+      "vehiclesAvailable": 5,
+      "rating": 4.7
+    },
+    {
+      "id": "fire-004",
+      "name": "Talwade IT Park Fire Sub-Station",
+      "location": "Software Technology Park Rd, Talwade, Pimpri-Chinchwad, Pune - 411062",
+      "phone": "020-27694400",
+      "emergencyNumber": "101",
+      "distance": "4.1 km",
+      "latitude": 18.6812,
+      "longitude": 73.7721,
+      "status": "Available",
+      "vehiclesAvailable": 3,
+      "rating": 4.6
+    },
+    {
+      "id": "fire-005",
+      "name": "Bhosari MIDC Fire Station",
+      "location": "Telco Road, MIDC Bhosari Industrial Area, Pune - 411026",
+      "phone": "020-27122101",
+      "emergencyNumber": "101",
+      "distance": "9.5 km",
+      "latitude": 18.6291,
+      "longitude": 73.8432,
+      "status": "Available",
+      "vehiclesAvailable": 6,
+      "rating": 4.7
+    }
+  ],
+  "policeStations": [
+    {
+      "id": "pol-001",
+      "name": "Nigdi Police Station",
+      "location": "Sector 24, Pradhikaran, Nigdi, Pimpri-Chinchwad, Pune - 411044",
+      "phone": "020-27653100",
+      "emergencyNumber": "112",
+      "distance": "1.5 km",
+      "latitude": 18.6582,
+      "longitude": 73.7699,
+      "status": "Available",
+      "patrolUnits": 6,
+      "rating": 4.6
+    },
+    {
+      "id": "pol-002",
+      "name": "Chinchwad Police Station",
+      "location": "Near Chinchwad Railway Station, Chinchwad, Pune - 411033",
+      "phone": "020-27352333",
+      "emergencyNumber": "112",
+      "distance": "3.1 km",
+      "latitude": 18.6322,
+      "longitude": 73.7841,
+      "status": "Available",
+      "patrolUnits": 5,
+      "rating": 4.5
+    },
+    {
+      "id": "pol-003",
+      "name": "Pimpri Police Station",
+      "location": "Dr. Babasaheb Ambedkar Chowk, Pimpri, Pune - 411018",
+      "phone": "020-27411200",
+      "emergencyNumber": "112",
+      "distance": "4.9 km",
+      "latitude": 18.6241,
+      "longitude": 73.8012,
+      "status": "Available",
+      "patrolUnits": 8,
+      "rating": 4.7
+    },
+    {
+      "id": "pol-004",
+      "name": "Dehu Road Police Station",
+      "location": "Cantonment Board Area, Dehu Road, Pune - 412101",
+      "phone": "020-27671233",
+      "emergencyNumber": "112",
+      "distance": "8.2 km",
+      "latitude": 18.7188,
+      "longitude": 73.7314,
+      "status": "Available",
+      "patrolUnits": 4,
+      "rating": 4.4
+    },
+    {
+      "id": "pol-005",
+      "name": "Bhosari Police Station",
+      "location": "Pune-Nashik Highway, Landewadi, Bhosari, Pune - 411039",
+      "phone": "020-27120100",
+      "emergencyNumber": "112",
+      "distance": "9.1 km",
+      "latitude": 18.6256,
+      "longitude": 73.8411,
+      "status": "Available",
+      "patrolUnits": 6,
+      "rating": 4.5
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "hosp-001",
+      "name": "Star Multispeciality Hospital Akurdi",
+      "location": "Near Akurdi Railway Flyover, Pradhikaran, Akurdi, Pune - 411044",
+      "phone": "020-27658900",
+      "emergencyNumber": "108",
+      "distance": "0.6 km",
+      "latitude": 18.6498,
+      "longitude": 73.7645,
+      "status": "Available",
+      "burnUnit": "Yes",
+      "icuBedsAvailable": 7,
+      "rating": 4.7
+    },
+    {
+      "id": "hosp-002",
+      "name": "Sterling Multispeciality Hospital Nigdi",
+      "location": "Plot No. 4, Sector 27A, Pradhikaran, Nigdi, Pune - 411044",
+      "phone": "020-67332200",
+      "emergencyNumber": "108",
+      "distance": "1.8 km",
+      "latitude": 18.6554,
+      "longitude": 73.7681,
+      "status": "Available",
+      "burnUnit": "Yes (Level 2)",
+      "icuBedsAvailable": 12,
+      "rating": 4.8
+    },
+    {
+      "id": "hosp-003",
+      "name": "Lokmanya Multispeciality Hospital Chinchwad",
+      "location": "Near Chinchwad Flyover, Pune-Mumbai Hwy, Chinchwad, Pune - 411033",
+      "phone": "020-46606000",
+      "emergencyNumber": "108",
+      "distance": "2.6 km",
+      "latitude": 18.6387,
+      "longitude": 73.7892,
+      "status": "Available",
+      "burnUnit": "Yes",
+      "icuBedsAvailable": 15,
+      "rating": 4.9
+    },
+    {
+      "id": "hosp-004",
+      "name": "Aditya Birla Memorial Hospital",
+      "location": "Aditya Birla Hospital Marg, Thergaon, Chinchwad, Pune - 411033",
+      "phone": "020-30717500",
+      "emergencyNumber": "108",
+      "distance": "4.5 km",
+      "latitude": 18.6189,
+      "longitude": 73.7731,
+      "status": "Available",
+      "burnUnit": "Advanced Burn Center",
+      "icuBedsAvailable": 24,
+      "rating": 4.9
+    },
+    {
+      "id": "hosp-005",
+      "name": "Yashwantrao Chavan Memorial (YCM) Hospital",
+      "location": "Sant Tukaram Nagar, Pimpri, Pimpri-Chinchwad, Pune - 411018",
+      "phone": "020-27422500",
+      "emergencyNumber": "108",
+      "distance": "5.2 km",
+      "latitude": 18.6265,
+      "longitude": 73.8123,
+      "status": "Available",
+      "burnUnit": "PCMC Dedicated Burn Ward",
+      "icuBedsAvailable": 30,
+      "rating": 4.6
+    }
+  ],
+  "emergencyAlerts": [
+    {
+      "id": "ALT-20260920-252B",
+      "userId": "usr-pccoe-001",
+      "userName": "Prof. Rajesh Deshmukh",
+      "userPhone": "+91 98230 45678",
+      "emergencyType": "Fire & Smoke Emergency",
+      "location": "PCCOE Campus, Sector 26, Pradhikaran, Akurdi, Pune - 411044",
+      "latitude": 18.6517,
+      "longitude": 73.7615,
+      "timestamp": "2026-09-20T17:25:00.378Z",
+      "status": "RESOLVED",
+      "severity": "CRITICAL",
+      "dispatchPhase": "DISPATCHED",
+      "notifiedContacts": [
+        "Dr. Ramesh Deshmukh",
+        "Sunita Deshmukh",
+        "Amit Joshi (Hostel Warden)",
+        "PCCOE Central Campus Security",
+        "Dr. Neha Patil (Campus Medical)"
+      ],
+      "notifiedServices": [
+        {
+          "name": "PCMC Fire Sub-Station Akurdi",
+          "type": "Fire Brigade",
+          "time": "10:55:00 pm",
+          "status": "DISPATCHED"
+        },
+        {
+          "name": "Nigdi Police Station",
+          "type": "Police",
+          "time": "10:55:00 pm",
+          "status": "ALERTED"
+        },
+        {
+          "name": "Star Multispeciality Hospital Akurdi",
+          "type": "Hospital / Ambulance",
+          "time": "10:55:00 pm",
+          "status": "STANDBY"
+        }
+      ],
+      "timeline": [
+        {
+          "step": "USER_IN_DANGER",
+          "title": "User In Danger Detected",
+          "time": "10:55:00 pm",
+          "completed": true
+        },
+        {
+          "step": "PRESS_SOS",
+          "title": "Emergency SOS Triggered",
+          "time": "10:55:00 pm",
+          "completed": true
+        },
+        {
+          "step": "ALERT_SENT",
+          "title": "Central AI Command Alert Sent",
+          "time": "10:55:00 pm",
+          "completed": true
+        },
+        {
+          "step": "CONTACTS_NOTIFIED",
+          "title": "Family & Emergency Contacts Alerted",
+          "time": "10:55:00 pm",
+          "completed": true
+        },
+        {
+          "step": "SERVICES_DISPATCHED",
+          "title": "Akurdi Fire, Nigdi Police & Ambulance Dispatched",
+          "time": "10:55:00 pm",
+          "completed": true
+        },
+        {
+          "step": "RESPONDING",
+          "title": "Emergency Response Team En Route",
+          "time": "In Progress...",
+          "completed": false
+        },
+        {
+          "step": "HELP_REACHED",
+          "title": "First Responders on Scene",
+          "time": "Awaiting Arrival",
+          "completed": false
+        }
+      ],
+      "notes": "Situation controlled with fire extinguisher / Drill resolved",
+      "resolvedAt": "2026-09-20T17:25:39.773Z",
+      "updatedAt": "2026-09-20T17:25:39.793Z"
+    },
+    {
+      "id": "ALT-2026-0920-001",
+      "userId": "usr-pccoe-001",
+      "userName": "Prof. Rajesh Deshmukh",
+      "userPhone": "+91 98230 45678",
+      "emergencyType": "Fire Emergency (Computer Lab 3)",
+      "location": "PCCOE Campus, Mechanical Dept Bldg 2nd Floor, Akurdi, Pune",
+      "latitude": 18.6517,
+      "longitude": 73.7615,
+      "timestamp": "2026-09-20T19:42:10.000Z",
+      "status": "RESOLVED",
+      "severity": "CRITICAL",
+      "notifiedContacts": [
+        "Dr. Ramesh Deshmukh",
+        "PCCOE Campus Security",
+        "Campus Doctor"
+      ],
+      "notifiedServices": [
+        {
+          "name": "PCMC Fire Sub-Station Akurdi",
+          "type": "Fire",
+          "time": "19:42:18"
+        },
+        {
+          "name": "Nigdi Police Station",
+          "type": "Police",
+          "time": "19:42:25"
+        },
+        {
+          "name": "Star Multispeciality Hospital",
+          "type": "Hospital",
+          "time": "19:42:30"
+        }
+      ],
+      "resolvedAt": "2026-09-20T20:15:00.000Z",
+      "notes": "Electrical short circuit extinguished using CO2 cylinders. No casualties."
+    },
+    {
+      "id": "ALT-2026-0918-002",
+      "userId": "usr-pccoe-002",
+      "userName": "Sonu Kumar",
+      "userPhone": "+91 91234 56789",
+      "emergencyType": "Smoke Sensor Trigger (Boys Hostel C)",
+      "location": "PCCOE Boys Hostel C Block, Sector 26, Akurdi, Pune",
+      "latitude": 18.6525,
+      "longitude": 73.7628,
+      "timestamp": "2026-09-18T14:10:00.000Z",
+      "status": "RESOLVED",
+      "severity": "WARNING",
+      "notifiedContacts": [
+        "PCCOE Central Campus Security",
+        "Amit Joshi (Hostel Warden)"
+      ],
+      "notifiedServices": [
+        {
+          "name": "PCMC Fire Sub-Station Akurdi",
+          "type": "Fire",
+          "time": "14:10:20"
+        }
+      ],
+      "resolvedAt": "2026-09-18T14:28:00.000Z",
+      "notes": "Kitchen exhaust smoke triggered optical detector. Venting cleared."
+    },
+    {
+      "id": "ALT-2026-0915-003",
+      "userId": "usr-pccoe-001",
+      "userName": "Prof. Rajesh Deshmukh",
+      "userPhone": "+91 98230 45678",
+      "emergencyType": "Campus Drill Simulation",
+      "location": "PCCOE Main Auditorium & Library Block, Akurdi, Pune",
+      "latitude": 18.6517,
+      "longitude": 73.7615,
+      "timestamp": "2026-09-15T11:00:00.000Z",
+      "status": "RESOLVED",
+      "severity": "DRILL",
+      "notifiedContacts": [
+        "All Campus Security Units"
+      ],
+      "notifiedServices": [
+        {
+          "name": "PCMC Fire Sub-Station Akurdi",
+          "type": "Fire",
+          "time": "11:00:05"
+        }
+      ],
+      "resolvedAt": "2026-09-15T11:45:00.000Z",
+      "notes": "Annual Fire Safety Drill successfully conducted with PCMC Fire officers."
+    },
+    {
+      "id": "ALT-2026-0910-004",
+      "userId": "usr-pccoe-002",
+      "userName": "Sonu Kumar",
+      "userPhone": "+91 91234 56789",
+      "emergencyType": "Chemistry Lab Chemical Smoke",
+      "location": "Applied Sciences Wing, First Year Dept, PCCOE Akurdi",
+      "latitude": 18.6512,
+      "longitude": 73.7619,
+      "timestamp": "2026-09-10T16:30:00.000Z",
+      "status": "RESOLVED",
+      "severity": "WARNING",
+      "notifiedContacts": [
+        "PCCOE Campus Security",
+        "Dr. Neha Patil"
+      ],
+      "notifiedServices": [
+        {
+          "name": "Star Multispeciality Hospital",
+          "type": "Hospital",
+          "time": "16:30:45"
+        }
+      ],
+      "resolvedAt": "2026-09-10T17:05:00.000Z",
+      "notes": "Minor exothermic reaction in fume hood. Fume scrubber activated."
+    },
+    {
+      "id": "ALT-2026-0902-005",
+      "userId": "usr-pccoe-001",
+      "userName": "Security Console",
+      "userPhone": "+91 020 2765 3168",
+      "emergencyType": "Transformer Spark Alarm",
+      "location": "Substation 2, Near PCCOE Sports Complex, Akurdi, Pune",
+      "latitude": 18.6508,
+      "longitude": 73.7608,
+      "timestamp": "2026-09-02T08:15:00.000Z",
+      "status": "RESOLVED",
+      "severity": "HIGH",
+      "notifiedContacts": [
+        "PCCOE Electrical Maintenance",
+        "Campus Security"
+      ],
+      "notifiedServices": [
+        {
+          "name": "PCMC Fire Sub-Station Akurdi",
+          "type": "Fire",
+          "time": "08:15:15"
+        },
+        {
+          "name": "Nigdi Police Station",
+          "type": "Police",
+          "time": "08:15:30"
+        }
+      ],
+      "resolvedAt": "2026-09-02T09:00:00.000Z",
+      "notes": "MSEDCL feeder trip triggered spark arrestor. Power isolated."
+    }
+  ],
+  "guidelines": [
+    {
+      "id": "gdl-001",
+      "title": "Immediate Actions Upon Fire Discovery",
+      "category": "Fire Safety Tips",
+      "importance": "CRITICAL",
+      "content": "1. Stay calm and alert others loudly: Shout 'FIRE! FIRE!'\n2. Pull the nearest manual fire alarm call point immediately.\n3. Evacuate through designated staircases—NEVER use lifts or elevators.\n4. Call Fire Brigade at 101 or press SOS on this system.\n5. If safe and trained, attempt small fires using appropriate extinguishers."
+    },
+    {
+      "id": "gdl-002",
+      "title": "The P.A.S.S. Technique for Fire Extinguishers",
+      "category": "Fire Safety Tips",
+      "importance": "HIGH",
+      "content": "P - PULL the safety pin at the top of the extinguisher.\nA - AIM the nozzle low, pointing at the base of the fire, not the flames.\nS - SQUEEZE the handle slowly and evenly to release extinguishing agent.\nS - SWEEP the nozzle from side to side across the base until completely extinguished."
+    },
+    {
+      "id": "gdl-003",
+      "title": "Crawling Under Heavy Smoke (Low-Crawl)",
+      "category": "Evacuation Instructions",
+      "importance": "CRITICAL",
+      "content": "1. Toxic hot smoke and deadly carbon monoxide rise to the ceiling.\n2. Cleaner, cooler breathable air remains in the bottom 30-60 cm zone above floor.\n3. Drop to your hands and knees and crawl towards the emergency exit.\n4. Cover your mouth and nose with a damp cloth if available.\n5. Feel doors with back of your hand before turning handles."
+    },
+    {
+      "id": "gdl-004",
+      "title": "First Aid for Thermal & Fire Burns",
+      "category": "First Aid",
+      "importance": "CRITICAL",
+      "content": "1. COOL the burn immediately under gentle, cool running tap water for at least 10-20 minutes.\n2. DO NOT use ice, iced water, butter, toothpaste, turmeric, or greasy ointments.\n3. Carefully remove rings, belts, and tight jewelry before swelling begins.\n4. Do NOT pop blisters or peel burned skin.\n5. Cover loosely with sterile cling film or clean dry non-fluffy cloth and seek urgent medical help."
+    },
+    {
+      "id": "gdl-005",
+      "title": "Smoke Inhalation & Carbon Monoxide Protocol",
+      "category": "First Aid",
+      "importance": "HIGH",
+      "content": "1. Move victim immediately to fresh, outdoor air.\n2. Loosen tight collars, ties, belts, and obstructive clothing.\n3. If breathing is labored, sit them upright. If unconscious but breathing, place in recovery position.\n4. If unconscious and not breathing, begin CPR immediately (30 chest compressions : 2 breaths).\n5. Administer 100% humidified oxygen as soon as medical responders arrive."
+    },
+    {
+      "id": "gdl-006",
+      "title": "Stop, Drop, and Roll (If Clothes Catch Fire)",
+      "category": "Emergency Rules",
+      "importance": "CRITICAL",
+      "content": "1. STOP immediately—running fans oxygen to the flames and worsens burns.\n2. DROP to the floor and cover your face with your hands to protect eyes and airways.\n3. ROLL back and forth repeatedly to smother the flames against the ground.\n4. If someone else is on fire, wrap them in a heavy fire blanket, woolen coat, or rug."
+    },
+    {
+      "id": "gdl-007",
+      "title": "PCCOE Campus Evacuation Assembly Points",
+      "category": "Evacuation Instructions",
+      "importance": "HIGH",
+      "content": "1. Primary Assembly Point A: PCCOE Central Sports Ground (Opposite Main Admin Building).\n2. Secondary Assembly Point B: Lawn area behind Architecture & MBA Block.\n3. Do not re-enter any academic building until PCMC Fire Chief declares the all-clear.\n4. Class representatives and floor wardens must conduct head counts."
+    },
+    {
+      "id": "gdl-008",
+      "title": "Chemical Fire & Electrical Fire Precautions",
+      "category": "Fire Safety Tips",
+      "importance": "HIGH",
+      "content": "1. Class C / Electrical Fire: NEVER use water! Cut main electrical breaker, then use CO2 or ABC Dry Chemical Powder.\n2. Class B / Flammable Liquids: Smother using foam or dry chemical. Never throw water (causes explosive boilover).\n3. In labs, immediately trigger chemical fume hoods to isolate airborne toxins."
+    },
+    {
+      "id": "gdl-009",
+      "title": "Trapped in a Smoke-Filled Room",
+      "category": "Emergency Rules",
+      "importance": "CRITICAL",
+      "content": "1. Close the door between you and the fire.\n2. Block door cracks and vents with wet towels, blankets, or clothes to seal off smoke.\n3. Dial 101 / press SOS and inform exact room number (e.g. PCCOE Tech Bldg Room 304).\n4. Signal from a window using a flashlight or bright colored cloth. Only open window slightly if smoke is outside."
+    },
+    {
+      "id": "gdl-010",
+      "title": "Post-Emergency Recovery & Incident Reporting",
+      "category": "Emergency Rules",
+      "importance": "MEDIUM",
+      "content": "1. Report all injuries, even minor smoke irritation, to the on-site emergency triage team.\n2. Document incident timeline and submit report to PCCOE Disaster Management Cell.\n3. Replace discharged fire extinguishers and reset optical detectors immediately.\n4. Participate in post-incident safety debriefing."
+    }
+  ]
+}
